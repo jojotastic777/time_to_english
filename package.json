@@ -1,0 +1,37 @@
+{
+  "name": "time_to_english",
+  "description": "24-hour time to english converter.",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "jojotastic777",
+    "email": "jojotastic777@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jojotastic777/time_to_english.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jojotastic777/time_to_english/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/time_to_english",
+  "engines": {
+    "node": "0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
